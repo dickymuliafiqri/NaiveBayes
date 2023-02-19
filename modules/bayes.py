@@ -1,12 +1,6 @@
-from sklearn.metrics import confusion_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import accuracy_score
-import numpy as np
-import json
 
 categories = ['Software', 'Hardware']
 train = {
